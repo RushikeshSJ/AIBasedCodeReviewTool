@@ -1,0 +1,19 @@
+/code-review-tool-backend
+  ├── /src
+      ├── /main
+          ├── /java
+              ├── /com
+                  ├── /example
+                      ├── /codereviewtool
+                          ├── CodeReviewToolApplication.java
+                          ├── /controller
+                              ├── CodeReviewController.java
+                          ├── /service
+                              ├── CodeAnalysisService.java
+                          ├── /model
+                              ├── CodeReviewRequest.java
+                              ├── CodeReviewResponse.java
+                          ├── /repository
+                              ├── FeedbackRepository.java
+          ├── /resources
+              ├── application.properties

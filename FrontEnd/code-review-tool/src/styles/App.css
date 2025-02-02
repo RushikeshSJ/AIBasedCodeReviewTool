@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.App {
+    text-align: center;
+}
+
+.app-header {
+    background-color: #d59347;
+    padding: 20px;
+    color: white;
+}
+
+.code-input-form {
+    margin: 20px auto;
+}
+
+.code-textarea {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.code-review {
+    margin-top: 20px;
+}
+
+.feedback-item {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.feedback-item h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.feedback-item p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.error-message {
+    color: red;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.loading-spinner {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+@media (max-width: 600px) {
+    .code-textarea {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .submit-button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
