@@ -39,6 +39,7 @@ cd ai-code-review-tool
 2. Install dependencies and run the backend server:
    mvn clean install
    mvn spring-boot:run
+   
 3️⃣ Frontend Setup (React)
 1. Navigate to the frontend folder:
    cd frontend
@@ -46,6 +47,7 @@ cd ai-code-review-tool
    npm install
    npm install axios
    npm start
+   
 4️⃣ Environment Variables
 Create a .env file in the backend and frontend directories with the following variables:
 # Backend
