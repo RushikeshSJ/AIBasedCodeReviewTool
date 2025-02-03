@@ -33,6 +33,7 @@ AI Integration: OpenAI API
 1️⃣ Clone the Repository
 git clone https://github.com/RushikeshSJ/AIBasedCodeReviewTool
 cd ai-code-review-tool
+
 2️⃣ Backend Setup (Spring Boot)
 1. Navigate to the backend folder:
   cd backend
